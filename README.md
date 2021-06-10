@@ -21,7 +21,7 @@ where `[environment]` can be `os-pf`, `os-ps`, `os-pv`, `ov-pf`, `ov-ps`, or `ov
 cabal run tournament -- os-pf
 ```
 
-the simulation will be run for the OS-PF environment and the data will be written to `/output/os-pf.bin`. This file is in the [Protocol Buffers](https://developers.google.com/protocol-buffers) binary format, and it's specification is in `/results.proto`. The pairwise mean payoff matrix, the standard error of each of the entries (the SEM matrix), and the computation time will be printed in the console. The agents corresponding to the rows and columns in the matrices are, in the following order,
+the simulation will be run for the OS-PF environment and the data will be written to `/output/os-pf.bin`. This file is in the [Protocol Buffers](https://developers.google.com/protocol-buffers) binary format, and its specification is in `/results.proto`. The pairwise mean payoff matrix, the standard error of each of the entries (the SEM matrix), and the computation time will be printed in the console. The agents corresponding to the rows and columns in the matrices are, in the following order,
 
 1. random agent
 2. tit-for-tat agent
