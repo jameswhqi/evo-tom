@@ -1,0 +1,62 @@
+cabal-version:       3.0
+
+name:                tournament
+version:             0.1.0.0
+build-type:          Custom
+extra-source-files:  results.proto
+
+custom-setup
+  setup-depends:
+    base,
+    Cabal,
+    proto-lens-setup
+
+common lib
+  ghc-options: -Wall
+  other-modules:
+    Proto.Results,
+    Proto.Results_Fields,
+    Lib
+  autogen-modules:
+    Proto.Results,
+    Proto.Results_Fields
+  build-depends:
+    base,
+    mwc-random,
+    microlens,
+    containers,
+    formatting,
+    Chart,
+    Chart-cairo,
+    colour,
+    proto-lens-runtime,
+    optparse-applicative
+  default-language: Haskell2010
+  build-tool-depends: proto-lens-protoc:proto-lens-protoc
+                     
+executable tournament
+  import: lib
+  main-is: tournament.hs
+  build-depends:
+    vector,
+    deepseq,
+    proto-lens,
+    bytestring,
+    statistics,
+    formatting
+
+executable analysis
+  import: lib
+  main-is: analysis.hs
+  build-depends:
+    proto-lens,
+    bytestring
+
+executable evo
+  import: lib
+  main-is: evo.hs
+  build-depends:
+    vector,
+    proto-lens,
+    bytestring,
+    matrix

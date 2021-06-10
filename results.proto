@@ -1,0 +1,159 @@
+syntax="proto3";
+
+message AllResult {
+  AllResultOneof allResult = 1;
+  repeated Row meanMatrix = 2;
+  repeated Row semMatrix = 3;
+}
+
+message AllResultOneof {
+  oneof allResultOneof {
+    OStableResult oStableResult = 1;
+    OVarResult oVarResult = 2;
+  }
+}
+
+message Row {
+  repeated double row = 1;
+}
+
+message OStableResult {
+  repeated PairResult pairResults = 1;
+}
+
+message PairResult {
+  Pair pair = 1;
+  repeated PairGamesResultOneof pairGamesResults = 2;
+}
+
+message PairGamesResultOneof {
+  oneof pairGamesResultOneof {
+    PairGamesResult pairGamesResult = 1;
+    Payoffs pairMeanPayoffs = 2;
+  }
+}
+
+message PairGamesResult {
+  repeated GameResult pairGameResults = 1;
+  Pair finalPair = 2;
+}
+
+message OVarResult {
+  repeated Agent oVarAgents = 1;
+  repeated OVarGamesResultOneof oVarGamesResults = 2;
+}
+
+message OVarGamesResultOneof {
+  oneof oVarGamesResultOneof {
+    OVarGamesResult oVarGamesResult = 1;
+    OVarGamesResult0 oVarGamesResult0 = 2;
+  }
+}
+
+message OVarGamesResult {
+  repeated GameResult oVarGameResults = 1;
+  repeated Agent finalAgentsi = 2;
+  repeated Agent finalAgentsj = 3;
+}
+
+message OVarGamesResult0 {
+  repeated Payoffs oVarPayoffs = 1;
+}
+
+message GameResult {
+  repeated double game = 1;
+  Choices choices = 2;
+  Pair agents = 3;
+  Payoffs payoffs = 4;
+}
+
+message Choices {
+  int32 choice0 = 1;
+  int32 choice1 = 2;
+}
+
+message Pair {
+  IndexedAgent agent0 = 1;
+  IndexedAgent agent1 = 2;
+}
+
+message Payoffs {
+  double payoff0 = 1;
+  double payoff1 = 2;
+}
+
+message Agent {
+  oneof agentOneof {
+    Random random = 1;
+    TfT tft = 2;
+    NUM num = 3;
+    ToM tom = 4;
+    ToMS tomS = 5;
+    RL rl = 6;
+    RLS rlS = 7;
+    FBM fbm = 8;
+  }
+}
+
+message IndexedAgent {
+  int32 id = 1;
+  Agent iagent = 2;
+}
+
+message Random {}
+
+message TfT {
+  int32 lastOppChoice = 1;
+}
+
+message NUM {
+  double lambda = 1;
+}
+
+message ToM {
+  double lambda = 1;
+  repeated PostEntry posterior = 2;
+}
+
+message PostEntry {
+  PostPoint postPoint = 1;
+  double postValue = 2;
+}
+
+message PostPoint {
+  double mu = 1;
+  double sigma = 2;
+}
+
+message ToMS {
+  PostEntry postEntryS = 1;
+}
+
+message RL {
+  double lambda = 1;
+  repeated Choices history = 2;
+  repeated QTable tables = 3;
+}
+
+message QTable {
+  int32 stateLength = 1;
+  repeated QEntry table = 2;
+}
+
+message QEntry {
+  QKey qKey = 1;
+  double qValue = 2;
+}
+
+message QKey {
+  repeated Choices qState = 1;
+  int32 choice = 2;
+}
+
+message RLS {
+  repeated double qStd = 1;
+}
+
+message FBM {
+  double lambda = 1;
+}

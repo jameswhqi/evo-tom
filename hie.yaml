@@ -1,0 +1,8 @@
+cradle:
+  cabal:
+    - path: "./tournament.hs"
+      component: "exe:tournament"
+    - path: "./evo.hs"
+      component: "exe:evo"
+    - path: "./analysis.hs"
+      component: "exe:analysis"
