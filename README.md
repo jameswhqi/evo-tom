@@ -4,7 +4,7 @@ Simulation and analysis code for the paper "Environmental Requirements for the E
 
 ## Prerequisites
 
-- Install [ghc](https://www.haskell.org/ghc/) 8.10.4, [cabal-install](https://www.haskell.org/cabal/) 3.4.\*, and the [Protocol Buffers compiler](https://github.com/protocolbuffers/protobuf) 3.17.\*.
+- Install [ghc](https://www.haskell.org/ghc/) 8.10.4, [cabal-install](https://www.haskell.org/cabal/) 3.4.\*, and [protoc](https://github.com/protocolbuffers/protobuf) 3.17.\*.
 - Clone this repo.
 
 ## Tournament
