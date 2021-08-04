@@ -1,0 +1,1045 @@
+{
+    "client": {
+        "type": "sona",
+        "experiment_id": 1891,
+        "credit_token": "2bee3485373a4a028038178d0ba82072",
+        "survey_code": "35642",
+        "sid": "sona-35642",
+        "window": {
+            "width": 1792,
+            "height": 920
+        },
+        "screen": {
+            "width": 1792,
+            "height": 1120
+        },
+        "userAgent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/83.0.4103.116 Safari\/537.36",
+        "lambda": -1
+    },
+    "trials": [
+        {
+            "trial": 1,
+            "payoffs": [
+                1,
+                1,
+                10,
+                3,
+                10,
+                9,
+                10,
+                7
+            ],
+            "prediction": 1,
+            "playerChoice": 0,
+            "oppChoice": 0,
+            "playerTotal": 1,
+            "predTotal": 0,
+            "correctPrediction": 0,
+            "correctChoice": 1,
+            "clambda": -0.75
+        },
+        {
+            "trial": 2,
+            "payoffs": [
+                7,
+                2,
+                6,
+                3,
+                1,
+                8,
+                4,
+                7
+            ],
+            "prediction": 0,
+            "playerChoice": 1,
+            "oppChoice": 0,
+            "playerTotal": 2,
+            "predTotal": 1,
+            "correctPrediction": 0,
+            "correctChoice": 1,
+            "clambda": 0.8
+        },
+        {
+            "trial": 3,
+            "payoffs": [
+                7,
+                1,
+                2,
+                4,
+                4,
+                9,
+                7,
+                6
+            ],
+            "prediction": 1,
+            "playerChoice": 1,
+            "oppChoice": 0,
+            "playerTotal": 4,
+            "predTotal": 1,
+            "correctPrediction": 0,
+            "correctChoice": 1,
+            "clambda": -0.2
+        },
+        {
+            "trial": 4,
+            "payoffs": [
+                3,
+                5,
+                4,
+                2,
+                5,
+                4,
+                7,
+                7
+            ],
+            "prediction": 1,
+            "playerChoice": 1,
+            "oppChoice": 1,
+            "playerTotal": 9,
+            "predTotal": 2,
+            "correctPrediction": 1,
+            "correctChoice": 1,
+            "clambda": -1.25
+        },
+        {
+            "trial": 5,
+            "payoffs": [
+                8,
+                5,
+                3,
+                6,
+                7,
+                4,
+                9,
+                3
+            ],
+            "prediction": 0,
+            "playerChoice": 0,
+            "oppChoice": 1,
+            "playerTotal": 11,
+            "predTotal": 2,
+            "correctPrediction": 1,
+            "correctChoice": 0,
+            "clambda": 1.25
+        },
+        {
+            "trial": 6,
+            "payoffs": [
+                8,
+                1,
+                2,
+                4,
+                1,
+                9,
+                7,
+                6
+            ],
+            "prediction": 1,
+            "playerChoice": 1,
+            "oppChoice": 0,
+            "playerTotal": 13,
+            "predTotal": 2,
+            "correctPrediction": 0,
+            "correctChoice": 1,
+            "clambda": 0.2
+        },
+        {
+            "trial": 7,
+            "payoffs": [
+                1,
+                3,
+                7,
+                1,
+                4,
+                5,
+                6,
+                7
+            ],
+            "prediction": 1,
+            "playerChoice": 1,
+            "oppChoice": 0,
+            "playerTotal": 12,
+            "predTotal": 2,
+            "correctPrediction": 0,
+            "correctChoice": 0,
+            "clambda": -0.25
+        },
+        {
+            "trial": 8,
+            "payoffs": [
+                8,
+                5,
+                2,
+                6,
+                4,
+                4,
+                3,
+                3
+            ],
+            "prediction": 0,
+            "playerChoice": 0,
+            "oppChoice": 1,
+            "playerTotal": 14,
+            "predTotal": 2,
+            "correctPrediction": 1,
+            "correctChoice": 0,
+            "clambda": -0.75
+        },
+        {
+            "trial": 9,
+            "payoffs": [
+                6,
+                5,
+                9,
+                1,
+                5,
+                6,
+                8,
+                10
+            ],
+            "prediction": 1,
+            "playerChoice": 1,
+            "oppChoice": 0,
+            "playerTotal": 13,
+            "predTotal": 2,
+            "correctPrediction": 0,
+            "correctChoice": 0,
+            "clambda": 0.2
+        },
+        {
+            "trial": 10,
+            "payoffs": [
+                9,
+                4,
+                8,
+                5,
+                6,
+                10,
+                4,
+                9
+            ],
+            "prediction": 0,
+            "playerChoice": 1,
+            "oppChoice": 0,
+            "playerTotal": 16,
+            "predTotal": 3,
+            "correctPrediction": 0,
+            "correctChoice": 1,
+            "clambda": 0.7
+        },
+        {
+            "trial": 11,
+            "payoffs": [
+                6,
+                4,
+                10,
+                10,
+                10,
+                8,
+                1,
+                2
+            ],
+            "prediction": 0,
+            "playerChoice": 1,
+            "oppChoice": 0,
+            "playerTotal": 24,
+            "predTotal": 4,
+            "correctPrediction": 0,
+            "correctChoice": 1,
+            "clambda": -1.25
+        },
+        {
+            "trial": 12,
+            "payoffs": [
+                6,
+                7,
+                4,
+                8,
+                4,
+                10,
+                1,
+                9
+            ],
+            "prediction": 0,
+            "playerChoice": 1,
+            "oppChoice": 0,
+            "playerTotal": 30,
+            "predTotal": 5,
+            "correctPrediction": 0,
+            "correctChoice": 1,
+            "clambda": 1.25
+        },
+        {
+            "trial": 13,
+            "payoffs": [
+                6,
+                6,
+                6,
+                8,
+                1,
+                3,
+                9,
+                1
+            ],
+            "prediction": 0,
+            "playerChoice": 0,
+            "oppChoice": 1,
+            "playerTotal": 31,
+            "predTotal": 5,
+            "correctPrediction": 1,
+            "correctChoice": 0,
+            "clambda": -0.2
+        },
+        {
+            "trial": 14,
+            "payoffs": [
+                1,
+                5,
+                9,
+                7,
+                4,
+                9,
+                9,
+                7
+            ],
+            "prediction": 1,
+            "playerChoice": 1,
+            "oppChoice": 0,
+            "playerTotal": 36,
+            "predTotal": 5,
+            "correctPrediction": 0,
+            "correctChoice": 1,
+            "clambda": -0.75
+        },
+        {
+            "trial": 15,
+            "payoffs": [
+                9,
+                1,
+                1,
+                7,
+                2,
+                9,
+                3,
+                3
+            ],
+            "prediction": 1,
+            "playerChoice": 1,
+            "oppChoice": 0,
+            "playerTotal": 41,
+            "predTotal": 5,
+            "correctPrediction": 0,
+            "correctChoice": 1,
+            "clambda": 1.25
+        },
+        {
+            "trial": 16,
+            "payoffs": [
+                6,
+                5,
+                3,
+                8,
+                3,
+                6,
+                9,
+                3
+            ],
+            "prediction": 0,
+            "playerChoice": 0,
+            "oppChoice": 1,
+            "playerTotal": 45,
+            "predTotal": 5,
+            "correctPrediction": 1,
+            "correctChoice": 0,
+            "clambda": 0.75
+        },
+        {
+            "trial": 17,
+            "payoffs": [
+                4,
+                8,
+                7,
+                10,
+                6,
+                4,
+                8,
+                2
+            ],
+            "prediction": 1,
+            "playerChoice": 0,
+            "oppChoice": 1,
+            "playerTotal": 47,
+            "predTotal": 6,
+            "correctPrediction": 1,
+            "correctChoice": 0,
+            "clambda": 0.25
+        },
+        {
+            "trial": 18,
+            "payoffs": [
+                8,
+                3,
+                6,
+                6,
+                10,
+                8,
+                9,
+                5
+            ],
+            "prediction": 1,
+            "playerChoice": 0,
+            "oppChoice": 1,
+            "playerTotal": 53,
+            "predTotal": 7,
+            "correctPrediction": 1,
+            "correctChoice": 0,
+            "clambda": -1.25
+        },
+        {
+            "trial": 19,
+            "payoffs": [
+                2,
+                2,
+                8,
+                1,
+                3,
+                6,
+                10,
+                7
+            ],
+            "prediction": 1,
+            "playerChoice": 1,
+            "oppChoice": 0,
+            "playerTotal": 52,
+            "predTotal": 7,
+            "correctPrediction": 0,
+            "correctChoice": 0,
+            "clambda": -0.3
+        },
+        {
+            "trial": 20,
+            "payoffs": [
+                6,
+                7,
+                6,
+                10,
+                10,
+                5,
+                10,
+                2
+            ],
+            "prediction": 1,
+            "playerChoice": 0,
+            "oppChoice": 1,
+            "playerTotal": 55,
+            "predTotal": 8,
+            "correctPrediction": 1,
+            "correctChoice": 0,
+            "clambda": 0.8
+        },
+        {
+            "trial": 21,
+            "payoffs": [
+                1,
+                6,
+                8,
+                7,
+                4,
+                9,
+                10,
+                8
+            ],
+            "prediction": 1,
+            "playerChoice": 1,
+            "oppChoice": 1,
+            "playerTotal": 61,
+            "predTotal": 9,
+            "correctPrediction": 1,
+            "correctChoice": 0,
+            "clambda": -1.25
+        },
+        {
+            "trial": 22,
+            "payoffs": [
+                6,
+                6,
+                3,
+                10,
+                4,
+                8,
+                10,
+                4
+            ],
+            "prediction": 0,
+            "playerChoice": 0,
+            "oppChoice": 1,
+            "playerTotal": 67,
+            "predTotal": 9,
+            "correctPrediction": 1,
+            "correctChoice": 0,
+            "clambda": 1.25
+        },
+        {
+            "trial": 23,
+            "payoffs": [
+                4,
+                1,
+                1,
+                6,
+                7,
+                10,
+                4,
+                5
+            ],
+            "prediction": 1,
+            "playerChoice": 0,
+            "oppChoice": 0,
+            "playerTotal": 66,
+            "predTotal": 9,
+            "correctPrediction": 0,
+            "correctChoice": 1,
+            "clambda": -0.75
+        },
+        {
+            "trial": 24,
+            "payoffs": [
+                3,
+                6,
+                7,
+                7,
+                3,
+                2,
+                10,
+                1
+            ],
+            "prediction": 0,
+            "playerChoice": 0,
+            "oppChoice": 1,
+            "playerTotal": 66,
+            "predTotal": 9,
+            "correctPrediction": 1,
+            "correctChoice": 0,
+            "clambda": 0.3
+        },
+        {
+            "trial": 25,
+            "payoffs": [
+                1,
+                2,
+                9,
+                3,
+                7,
+                8,
+                10,
+                7
+            ],
+            "prediction": 1,
+            "playerChoice": 1,
+            "oppChoice": 0,
+            "playerTotal": 67,
+            "predTotal": 9,
+            "correctPrediction": 0,
+            "correctChoice": 1,
+            "clambda": -0.7
+        },
+        {
+            "trial": 26,
+            "payoffs": [
+                2,
+                6,
+                3,
+                7,
+                3,
+                9,
+                7,
+                8
+            ],
+            "prediction": 1,
+            "playerChoice": 1,
+            "oppChoice": 1,
+            "playerTotal": 73,
+            "predTotal": 10,
+            "correctPrediction": 1,
+            "correctChoice": 0,
+            "clambda": -1.25
+        },
+        {
+            "trial": 27,
+            "payoffs": [
+                2,
+                7,
+                5,
+                9,
+                1,
+                4,
+                4,
+                2
+            ],
+            "prediction": 0,
+            "playerChoice": 1,
+            "oppChoice": 1,
+            "playerTotal": 73,
+            "predTotal": 10,
+            "correctPrediction": 1,
+            "correctChoice": 0,
+            "clambda": -0.2
+        },
+        {
+            "trial": 28,
+            "payoffs": [
+                7,
+                6,
+                7,
+                5,
+                3,
+                7,
+                8,
+                8
+            ],
+            "prediction": 1,
+            "playerChoice": 1,
+            "oppChoice": 0,
+            "playerTotal": 76,
+            "predTotal": 10,
+            "correctPrediction": 0,
+            "correctChoice": 0,
+            "clambda": 0.75
+        },
+        {
+            "trial": 29,
+            "payoffs": [
+                8,
+                2,
+                6,
+                5,
+                10,
+                10,
+                1,
+                7
+            ],
+            "prediction": 1,
+            "playerChoice": 0,
+            "oppChoice": 0,
+            "playerTotal": 76,
+            "predTotal": 10,
+            "correctPrediction": 0,
+            "correctChoice": 1,
+            "clambda": 0.3
+        },
+        {
+            "trial": 30,
+            "payoffs": [
+                8,
+                4,
+                4,
+                7,
+                4,
+                9,
+                3,
+                6
+            ],
+            "prediction": 0,
+            "playerChoice": 1,
+            "oppChoice": 0,
+            "playerTotal": 81,
+            "predTotal": 11,
+            "correctPrediction": 0,
+            "correctChoice": 1,
+            "clambda": 1.25
+        },
+        {
+            "trial": 31,
+            "payoffs": [
+                2,
+                2,
+                5,
+                4,
+                7,
+                9,
+                8,
+                7
+            ],
+            "prediction": 1,
+            "playerChoice": 0,
+            "oppChoice": 0,
+            "playerTotal": 81,
+            "predTotal": 11,
+            "correctPrediction": 0,
+            "correctChoice": 1,
+            "clambda": -0.8
+        },
+        {
+            "trial": 32,
+            "payoffs": [
+                7,
+                9,
+                3,
+                10,
+                3,
+                5,
+                4,
+                4
+            ],
+            "prediction": 0,
+            "playerChoice": 0,
+            "oppChoice": 1,
+            "playerTotal": 84,
+            "predTotal": 11,
+            "correctPrediction": 1,
+            "correctChoice": 0,
+            "clambda": -0.3
+        },
+        {
+            "trial": 33,
+            "payoffs": [
+                2,
+                6,
+                3,
+                7,
+                6,
+                3,
+                5,
+                2
+            ],
+            "prediction": 1,
+            "playerChoice": 0,
+            "oppChoice": 1,
+            "playerTotal": 85,
+            "predTotal": 12,
+            "correctPrediction": 1,
+            "correctChoice": 0,
+            "clambda": 0.75
+        },
+        {
+            "trial": 34,
+            "payoffs": [
+                9,
+                1,
+                10,
+                3,
+                7,
+                7,
+                2,
+                5
+            ],
+            "prediction": 0,
+            "playerChoice": 1,
+            "oppChoice": 0,
+            "playerTotal": 86,
+            "predTotal": 13,
+            "correctPrediction": 0,
+            "correctChoice": 1,
+            "clambda": 1.25
+        },
+        {
+            "trial": 35,
+            "payoffs": [
+                7,
+                2,
+                1,
+                5,
+                4,
+                7,
+                9,
+                4
+            ],
+            "prediction": 1,
+            "playerChoice": 1,
+            "oppChoice": 1,
+            "playerTotal": 88,
+            "predTotal": 14,
+            "correctPrediction": 1,
+            "correctChoice": 0,
+            "clambda": -1.25
+        },
+        {
+            "trial": 36,
+            "payoffs": [
+                6,
+                4,
+                9,
+                6,
+                6,
+                10,
+                7,
+                8
+            ],
+            "prediction": 0,
+            "playerChoice": 1,
+            "oppChoice": 0,
+            "playerTotal": 92,
+            "predTotal": 15,
+            "correctPrediction": 0,
+            "correctChoice": 1,
+            "clambda": 0.25
+        }
+    ],
+    "debrief": {
+        "predictText": "choose the bigger amount",
+        "chooseText": "Firstly, I will check out whether there's a column in which both computer amounts are the same. If it's the same, I will choose another one because you can't guess which row the computer will select. Then I will choose the bigger amount of mine after comparing which is the bigger computer amount.",
+        "predictCheck": "self",
+        "chooseCheck": "guess self",
+        "purpose": "People tend to guess the computer is doing the same requirement as we do.",
+        "confusing": "y",
+        "confusingText": "I feel totally clear about the rule during practice, but after having the game on, I'm confused about the rule towards computer.",
+        "technical": "n",
+        "technicalText": ""
+    },
+    "times": {
+        "consent": 1593699580819,
+        "tutorial": [
+            {
+                "step": 0,
+                "time": 1593699580834
+            },
+            {
+                "step": 1,
+                "time": 1593699750677
+            },
+            {
+                "step": 2,
+                "time": 1593699801904
+            },
+            {
+                "step": 3,
+                "time": 1593699831521
+            },
+            {
+                "step": 4,
+                "time": 1593699836604
+            },
+            {
+                "step": 5,
+                "time": 1593699848368
+            },
+            {
+                "step": 6,
+                "time": 1593699853604
+            },
+            {
+                "step": 7,
+                "time": 1593699856114
+            },
+            {
+                "step": 8,
+                "time": 1593699863486
+            },
+            {
+                "step": 9,
+                "time": 1593699864934
+            },
+            {
+                "step": 10,
+                "time": 1593699876439
+            },
+            {
+                "step": 11,
+                "time": 1593699882955
+            },
+            {
+                "step": 12,
+                "time": 1593699894314
+            },
+            {
+                "step": 13,
+                "time": 1593699897355
+            },
+            {
+                "step": 14,
+                "time": 1593699948290
+            },
+            {
+                "step": 15,
+                "time": 1593699959694
+            },
+            {
+                "step": 16,
+                "time": 1593699966869
+            },
+            {
+                "step": 17,
+                "time": 1593700071173
+            },
+            {
+                "step": 18,
+                "time": 1593700081439
+            },
+            {
+                "step": 19,
+                "time": 1593700089248
+            }
+        ],
+        "game": [
+            {
+                "trial": 1,
+                "time": 1593700106434
+            },
+            {
+                "trial": 2,
+                "time": 1593700125338
+            },
+            {
+                "trial": 3,
+                "time": 1593700139839
+            },
+            {
+                "trial": 4,
+                "time": 1593700153793
+            },
+            {
+                "trial": 5,
+                "time": 1593700168259
+            },
+            {
+                "trial": 6,
+                "time": 1593700185778
+            },
+            {
+                "trial": 7,
+                "time": 1593700197397
+            },
+            {
+                "trial": 8,
+                "time": 1593700213455
+            },
+            {
+                "trial": 9,
+                "time": 1593700225129
+            },
+            {
+                "trial": 10,
+                "time": 1593700245678
+            },
+            {
+                "trial": 11,
+                "time": 1593700260067
+            },
+            {
+                "trial": 12,
+                "time": 1593700278770
+            },
+            {
+                "trial": 13,
+                "time": 1593700291276
+            },
+            {
+                "trial": 14,
+                "time": 1593700307307
+            },
+            {
+                "trial": 15,
+                "time": 1593700324603
+            },
+            {
+                "trial": 16,
+                "time": 1593700339266
+            },
+            {
+                "trial": 17,
+                "time": 1593700360566
+            },
+            {
+                "trial": 18,
+                "time": 1593700382155
+            },
+            {
+                "trial": 19,
+                "time": 1593700404189
+            },
+            {
+                "trial": 20,
+                "time": 1593700421182
+            },
+            {
+                "trial": 21,
+                "time": 1593700435168
+            },
+            {
+                "trial": 22,
+                "time": 1593700465089
+            },
+            {
+                "trial": 23,
+                "time": 1593700483076
+            },
+            {
+                "trial": 24,
+                "time": 1593700506675
+            },
+            {
+                "trial": 25,
+                "time": 1593700521803
+            },
+            {
+                "trial": 26,
+                "time": 1593700537795
+            },
+            {
+                "trial": 27,
+                "time": 1593700573250
+            },
+            {
+                "trial": 28,
+                "time": 1593700642616
+            },
+            {
+                "trial": 29,
+                "time": 1593700656940
+            },
+            {
+                "trial": 30,
+                "time": 1593700675665
+            },
+            {
+                "trial": 31,
+                "time": 1593700696691
+            },
+            {
+                "trial": 32,
+                "time": 1593700713536
+            },
+            {
+                "trial": 33,
+                "time": 1593700741633
+            },
+            {
+                "trial": 34,
+                "time": 1593700760974
+            },
+            {
+                "trial": 35,
+                "time": 1593700774421
+            },
+            {
+                "trial": 36,
+                "time": 1593700800544
+            }
+        ],
+        "debrief": [
+            {
+                "page": 0,
+                "time": 1593700803648
+            },
+            {
+                "page": 1,
+                "time": 1593701018539
+            },
+            {
+                "page": 2,
+                "time": 1593701084304
+            },
+            {
+                "page": 3,
+                "time": 1593701134873
+            },
+            {
+                "page": 4,
+                "time": 1593701213427
+            },
+            {
+                "page": 5,
+                "time": 1593701216847
+            }
+        ]
+    }
+}
