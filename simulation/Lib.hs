@@ -3,7 +3,8 @@
 module Lib where
 
 -- base
-import Data.List (genericLength, intercalate)
+-- base
+import Data.List (genericLength, intercalate, foldl')
 -- mwc-random
 import System.Random.MWC (uniform, uniformR, GenIO)
 -- microlens
@@ -22,6 +23,8 @@ import Graphics.Rendering.Chart.Backend.Cairo (toFile, FileOptions(..), FileForm
 import Data.Colour.CIE (cieLAB)
 import Data.Colour.CIE.Illuminant (d65)
 import Data.Colour.SRGB (toSRGB, RGB(..))
+import Data.Matrix (Matrix, scaleRow, combineRows, minorMatrix)
+import qualified Data.Matrix as M
 
 comb :: [a] -> [(a, a)]
 comb [] = []
@@ -159,3 +162,15 @@ plotLinesWithX :: PlotValue x => String -> [String] -> [[(x, Double)]] -> IO ()
 plotLinesWithX f ns ps = toFile (FileOptions (800,600) PDF) f $ do
   setColors colorMap
   sequence_ $ plot . set (mapped.plot_lines_style.line_width) 2 <$> zipWith line ns (pure <$> ps)
+
+xformMeanMatrix :: Matrix Double -> Matrix Double
+xformMeanMatrix m = foldl' (&) m
+  $ [f 0.5 i | f <- [scaleRow, scaleCol], i <- [4,7,10,13]]
+  ++ [f i 0.25 (i+j) | f <- [combineRows, combineCols], i <- [4,7,10,13], j <- [-1,1]]
+  ++ [minorMatrix i i | i <- [3,4,4,5,5,6,6,7]]
+
+scaleCol :: Num a => a -> Int -> Matrix a -> Matrix a
+scaleCol a i = M.transpose . scaleRow a i . M.transpose
+
+combineCols :: Num a => Int -> a -> Int -> Matrix a -> Matrix a
+combineCols i a j = M.transpose . combineRows i a j . M.transpose

@@ -1,0 +1,53 @@
+name: simulation
+version: 1.0.0
+extra-source-files: results.proto
+
+custom-setup:
+  dependencies:
+  - base
+  - Cabal
+  - proto-lens-setup
+
+source-dirs: .
+dependencies:
+- base
+- bytestring
+- Chart
+- Chart-cairo
+- colour
+- containers
+- formatting
+- matrix
+- mwc-random
+- microlens
+- optparse-applicative
+- proto-lens
+- proto-lens-runtime
+build-tools:
+- proto-lens-protoc:proto-lens-protoc
+
+_autogen: &autogen
+  generated-other-modules:
+  - Proto.Results
+  - Proto.Results_Fields
+
+executables:
+  tournament:
+    main: tournament.hs
+    dependencies:
+    - vector
+    - deepseq
+    - statistics
+    - formatting
+    <<: *autogen
+
+  analysis:
+    main: analysis.hs
+    <<: *autogen
+
+  evo:
+    main: evo.hs
+    dependencies:
+    - vector
+    - proto-lens
+    <<: *autogen
