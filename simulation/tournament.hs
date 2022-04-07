@@ -53,7 +53,7 @@ main = do
                                    "ov-pv" -> (OVar, PVar)
                                    _ -> error $ "Invalid environment: " ++ env
   start <- getCPUTime
-  gen <- initialize (singleton 3509)
+  gen <- initialize (singleton 3513)
   result <- runTournament gen otype ptype
   putChar '\n'
   putStrLn . matrixToStr 3 $ meanMatrix result
